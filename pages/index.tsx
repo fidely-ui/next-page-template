@@ -22,7 +22,7 @@ export default function Home() {
                 UI library for modern React apps
               </Text>
               <Flex justify="center" gap={4} flexDirection={{ base: "column", md: "row" }}>
-                <Button size="lg" colorScheme="blue" asChild>
+                <Button size="lg" asChild>
                   <Link href="https://fidely-ui.vercel.app" target="_blank" rel="noopener noreferrer">
                     Documentation
                   </Link>
