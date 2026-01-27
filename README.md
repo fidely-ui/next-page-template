@@ -1,6 +1,8 @@
 # Next.js & Fidely UI Template
 
-A starter template for building modern web applications with **Next.js (Page Router)** and **Fidely UI** 
+A starter template for building modern web applications with **Next.js (Page Router)** and **Fidely UI v2** 
+
+For Fidely UI v1 check v1 branch
 
 ## Technologies Used
 

@@ -8,6 +8,7 @@ import {
   CommandInput,
   Flex,
   HStack,
+  Icon,
   IconButton,
   Text,
   useDialog,
@@ -16,7 +17,6 @@ import { FaBars, FaGithub, FaHeart, FaXTwitter } from "react-icons/fa6"
 
 import { ColorModeButton } from "~/components/color-mode-button"
 import { Drawer } from "~/components/drawer"
-import { Icon } from "~/components/icon"
 import { SearchDialog } from "~/components/search-dialog"
 
 export const NavBar = () => {
@@ -107,7 +107,9 @@ export const NavBar = () => {
 
           <CommandInput
             onOpen={() => dialog.setOpen(true)}
+            isOpen={dialog.open}
             width="240px"
+            shortcut="/"
             bg="transparent"
           />
 
