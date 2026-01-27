@@ -13,12 +13,12 @@ import {
   Stack,
   Text,
   CommandInput,
+  Icon,
 } from "@fidely-ui/react"
 import { FaGithub, FaHeart, FaXTwitter } from "react-icons/fa6"
 
 import { navLinks } from "~/components/navbar"
 import { ColorModeButton } from "~/components/color-mode-button"
-import { Icon } from "~/components/icon"
 
 interface DrawerProps {
   isOpen: boolean

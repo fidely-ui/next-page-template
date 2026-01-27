@@ -16,6 +16,7 @@ export default defineConfig({
   include: [
     "./pages/**/*.{js,jsx,ts,tsx}",
     "./components/**/*.{js,jsx,ts,tsx}",
+     "./node_modules/@fidely-ui/react/dist/panda.buildinfo.json"
   ],
 
   // Files to exclude
@@ -30,7 +31,6 @@ export default defineConfig({
     recipes: '*',
   },
 
-  importMap: "@fidely-ui/styled-system",
   // The output directory for your css system
   outdir: "styled-system",
 
